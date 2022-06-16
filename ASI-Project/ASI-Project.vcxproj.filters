@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="samp.cpp">
+      <Filter>samp</Filter>
+    </ClCompile>
+    <ClCompile Include="d3dhook.cpp">
+      <Filter>samp</Filter>
+    </ClCompile>
+    <ClCompile Include="d3drender.cpp">
+      <Filter>samp</Filter>
+    </ClCompile>
+    <ClCompile Include="BitStream.cpp">
+      <Filter>samp\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="HookedRakClient.cpp">
+      <Filter>samp\raknet</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="samp">
+      <UniqueIdentifier>{12ab4057-a0d5-49aa-982f-2b9ca5dc763e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="samp\raknet">
+      <UniqueIdentifier>{e699f133-507b-45e3-b435-62f95a1914b4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="samp.h">
+      <Filter>samp</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h" />
+    <ClInclude Include="d3dhook.h">
+      <Filter>samp</Filter>
+    </ClInclude>
+    <ClInclude Include="d3drender.h">
+      <Filter>samp</Filter>
+    </ClInclude>
+    <ClInclude Include="BitStream.h">
+      <Filter>samp\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="HookedRakClient.h">
+      <Filter>samp\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="RakClient.h">
+      <Filter>samp\raknet</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

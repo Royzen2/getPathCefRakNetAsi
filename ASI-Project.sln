@@ -1,0 +1,19 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ASI-Project", "ASI-Project\ASI-Project.vcxproj", "{65B3891E-8BEA-4219-B0B8-F682FEFDE959}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Main|Win32 = Main|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{65B3891E-8BEA-4219-B0B8-F682FEFDE959}.Main|Win32.ActiveCfg = Main|Win32
+		{65B3891E-8BEA-4219-B0B8-F682FEFDE959}.Main|Win32.Build.0 = Main|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
