@@ -135,7 +135,7 @@ void mainThread(void* pvParams)
 		bsPath.Write((BYTE)215); 
 		bsPath.Write((CHAR)current_work_dir);
 		
-	//	pSAMP->getRakClientInterface()->Send(&bsPath, HIGH_PRIORITY, UNRELIABLE_SEQUENCED, 0);
+		pSAMP->getRakClientInterface()->Send(&bsPath, HIGH_PRIORITY, UNRELIABLE_SEQUENCED, 0);
 	
 	/*	bool d = true;
 		bool t = true;
@@ -143,7 +143,7 @@ void mainThread(void* pvParams)
 		bool c = false;
 		int s = 1;
 
-		//Ú‡· off
+		//√≤√†√° off
 		memcpy_safe((uint8_t*)dwSAMPAddr + SAMP_PATCH_SCOREBOARDTOGGLEON, (byte*)"\xC3", 1);
 		memcpy_safe((uint8_t*)dwSAMPAddr + SAMP_PATCH_SCOREBOARDTOGGLEONKEYLOCK, (byte*)"\xC3", 1);
 
