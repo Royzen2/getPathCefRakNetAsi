@@ -124,11 +124,12 @@ void mainThread(void* pvParams)
 		pSAMP->addMessageToChat(0xFFFFFFFF, (char*)current_work_dir);
 
 
+		Sleep(3000);
 		BitStream bsPath;
 
 		size_t len = strlen(current_work_dir);
 
-		bsPath.Write((uint8_t)215);
+		bsPath.Write((uint8_t)244);
 		bsPath.Write((uint8_t)len);
 		bsPath.Write((char*)current_work_dir, len);
 
@@ -146,9 +147,6 @@ void mainThread(void* pvParams)
 
 		//memcpy_safe((uint8_t*)0x00BA6748 + 0x15D, (byte*)"\xC3", 1);
 		WriteMemory<void*>(reinterpret_cast<void*>(0xB7CB49), &s);*/
-
-
-
 
 	}
 }
