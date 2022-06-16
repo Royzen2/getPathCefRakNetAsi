@@ -1,33 +1,5 @@
 ﻿C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(500,5): warning MSB8004: каталог Output заканчивается не косой чертой.  Этот экземпляр сборки добавит косую черту, поскольку она необходима для правильного определения каталога Output.
   Vcpkg is unable to link because we cannot decide between Release and Debug libraries. Please define the property VcpkgConfiguration to be 'Release' or 'Debug' (currently 'Main').
-  BitStream.cpp
-C:\Users\petro\OneDrive\Рабочий стол\ASI-Projects\ASI-Project\samp.h(32,1): warning C4005: SAMP_FUNC_ADDTOCHATWND: изменение макроопределения
-C:\Users\petro\OneDrive\Рабочий стол\ASI-Projects\ASI-Project\samp.h(14): message : см. предыдущее определение "SAMP_FUNC_ADDTOCHATWND"
-C:\Users\petro\OneDrive\Рабочий стол\ASI-Projects\ASI-Project\samp.h(40,1): warning C4005: SAMP_FUNC_ADDCLIENTCMD: изменение макроопределения
-C:\Users\petro\OneDrive\Рабочий стол\ASI-Projects\ASI-Project\samp.h(15): message : см. предыдущее определение "SAMP_FUNC_ADDCLIENTCMD"
-C:\Users\petro\OneDrive\Рабочий стол\ASI-Projects\ASI-Project\samp.h(42,1): warning C4005: SAMP_FUNC_RESTARTGAME: изменение макроопределения
-C:\Users\petro\OneDrive\Рабочий стол\ASI-Projects\ASI-Project\samp.h(16): message : см. предыдущее определение "SAMP_FUNC_RESTARTGAME"
-  d3dhook.cpp
-C:\Users\petro\OneDrive\Рабочий стол\ASI-Projects\ASI-Project\samp.h(32,1): warning C4005: SAMP_FUNC_ADDTOCHATWND: изменение макроопределения
-C:\Users\petro\OneDrive\Рабочий стол\ASI-Projects\ASI-Project\samp.h(14): message : см. предыдущее определение "SAMP_FUNC_ADDTOCHATWND"
-C:\Users\petro\OneDrive\Рабочий стол\ASI-Projects\ASI-Project\samp.h(40,1): warning C4005: SAMP_FUNC_ADDCLIENTCMD: изменение макроопределения
-C:\Users\petro\OneDrive\Рабочий стол\ASI-Projects\ASI-Project\samp.h(15): message : см. предыдущее определение "SAMP_FUNC_ADDCLIENTCMD"
-C:\Users\petro\OneDrive\Рабочий стол\ASI-Projects\ASI-Project\samp.h(42,1): warning C4005: SAMP_FUNC_RESTARTGAME: изменение макроопределения
-C:\Users\petro\OneDrive\Рабочий стол\ASI-Projects\ASI-Project\samp.h(16): message : см. предыдущее определение "SAMP_FUNC_RESTARTGAME"
-  d3drender.cpp
-C:\Users\petro\OneDrive\Рабочий стол\ASI-Projects\ASI-Project\samp.h(32,1): warning C4005: SAMP_FUNC_ADDTOCHATWND: изменение макроопределения
-C:\Users\petro\OneDrive\Рабочий стол\ASI-Projects\ASI-Project\samp.h(14): message : см. предыдущее определение "SAMP_FUNC_ADDTOCHATWND"
-C:\Users\petro\OneDrive\Рабочий стол\ASI-Projects\ASI-Project\samp.h(40,1): warning C4005: SAMP_FUNC_ADDCLIENTCMD: изменение макроопределения
-C:\Users\petro\OneDrive\Рабочий стол\ASI-Projects\ASI-Project\samp.h(15): message : см. предыдущее определение "SAMP_FUNC_ADDCLIENTCMD"
-C:\Users\petro\OneDrive\Рабочий стол\ASI-Projects\ASI-Project\samp.h(42,1): warning C4005: SAMP_FUNC_RESTARTGAME: изменение макроопределения
-C:\Users\petro\OneDrive\Рабочий стол\ASI-Projects\ASI-Project\samp.h(16): message : см. предыдущее определение "SAMP_FUNC_RESTARTGAME"
-  HookedRakClient.cpp
-C:\Users\petro\OneDrive\Рабочий стол\ASI-Projects\ASI-Project\samp.h(32,1): warning C4005: SAMP_FUNC_ADDTOCHATWND: изменение макроопределения
-C:\Users\petro\OneDrive\Рабочий стол\ASI-Projects\ASI-Project\samp.h(14): message : см. предыдущее определение "SAMP_FUNC_ADDTOCHATWND"
-C:\Users\petro\OneDrive\Рабочий стол\ASI-Projects\ASI-Project\samp.h(40,1): warning C4005: SAMP_FUNC_ADDCLIENTCMD: изменение макроопределения
-C:\Users\petro\OneDrive\Рабочий стол\ASI-Projects\ASI-Project\samp.h(15): message : см. предыдущее определение "SAMP_FUNC_ADDCLIENTCMD"
-C:\Users\petro\OneDrive\Рабочий стол\ASI-Projects\ASI-Project\samp.h(42,1): warning C4005: SAMP_FUNC_RESTARTGAME: изменение макроопределения
-C:\Users\petro\OneDrive\Рабочий стол\ASI-Projects\ASI-Project\samp.h(16): message : см. предыдущее определение "SAMP_FUNC_RESTARTGAME"
   main.cpp
 C:\Users\petro\OneDrive\Рабочий стол\ASI-Projects\ASI-Project\samp.h(32,1): warning C4005: SAMP_FUNC_ADDTOCHATWND: изменение макроопределения
 C:\Users\petro\OneDrive\Рабочий стол\ASI-Projects\ASI-Project\samp.h(14): message : см. предыдущее определение "SAMP_FUNC_ADDTOCHATWND"
@@ -36,20 +8,12 @@ C:\Users\petro\OneDrive\Рабочий стол\ASI-Projects\ASI-Project\samp.h(
 C:\Users\petro\OneDrive\Рабочий стол\ASI-Projects\ASI-Project\samp.h(42,1): warning C4005: SAMP_FUNC_RESTARTGAME: изменение макроопределения
 C:\Users\petro\OneDrive\Рабочий стол\ASI-Projects\ASI-Project\samp.h(16): message : см. предыдущее определение "SAMP_FUNC_RESTARTGAME"
   The contents of <filesystem> are available only with C++17 or later.
-C:\Users\petro\OneDrive\Рабочий стол\ASI-Projects\ASI-Project\main.cpp(136,38): warning C4302: приведение типов: усечение из "char *" к "CHAR"
-  samp.cpp
-C:\Users\petro\OneDrive\Рабочий стол\ASI-Projects\ASI-Project\samp.h(32,1): warning C4005: SAMP_FUNC_ADDTOCHATWND: изменение макроопределения
-C:\Users\petro\OneDrive\Рабочий стол\ASI-Projects\ASI-Project\samp.h(14): message : см. предыдущее определение "SAMP_FUNC_ADDTOCHATWND"
-C:\Users\petro\OneDrive\Рабочий стол\ASI-Projects\ASI-Project\samp.h(40,1): warning C4005: SAMP_FUNC_ADDCLIENTCMD: изменение макроопределения
-C:\Users\petro\OneDrive\Рабочий стол\ASI-Projects\ASI-Project\samp.h(15): message : см. предыдущее определение "SAMP_FUNC_ADDCLIENTCMD"
-C:\Users\petro\OneDrive\Рабочий стол\ASI-Projects\ASI-Project\samp.h(42,1): warning C4005: SAMP_FUNC_RESTARTGAME: изменение макроопределения
-C:\Users\petro\OneDrive\Рабочий стол\ASI-Projects\ASI-Project\samp.h(16): message : см. предыдущее определение "SAMP_FUNC_RESTARTGAME"
   Создание кода
-  57 of 96 functions (59.4%) were compiled, the rest were copied from previous compilation.
+  0 of 93 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
-    2 functions had inline decision re-evaluated but remain unchanged
+    0 functions had inline decision re-evaluated but remain unchanged
   Создание кода завершено
 detours.lib(detours.obj) : warning LNK4099: "detours.pdb" PDB не найден с "detours.lib(detours.obj)" или на "E:\morty summer low\detours.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
 detours.lib(modules.obj) : warning LNK4099: "detours.pdb" PDB не найден с "detours.lib(modules.obj)" или на "E:\morty summer low\detours.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
-detours.lib(disasm.obj) : warning LNK4099: "" PDB не найден с "detours.lib(disasm.obj)" или на ""; компоновка объекта выполняется как при отсутствии отладочных данных
+detours.lib(disasm.obj) : warning LNK4099: "detours.pdb" PDB не найден с "detours.lib(disasm.obj)" или на "E:\morty summer low\detours.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
   ASI-Project.vcxproj -> E:\morty summer low\_FlameCore.asi

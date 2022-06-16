@@ -12,7 +12,7 @@ bool HookedRakClientInterface::RPC(int* uniqueID, BitStream *parameters, PacketP
 
 bool HookedRakClientInterface::Send(BitStream * bitStream, PacketPriority priority, PacketReliability reliability, char orderingChannel)
 {
-	return pSAMP->getRakClientInterface()->Send(bitStream, priority, reliability, orderingChannel); pSAMP->addMessageToChat(0xFFFFF, "ΓΓ²Γ―Γ°Γ ΓΆΓ«Γ¥Γ­ Γ―Γ ΓªΓ¥Γ²");
+	return pSAMP->getRakClientInterface()->Send(bitStream, priority, reliability, orderingChannel); pSAMP->addMessageToChat(0xFFFFF, "Ξςοπΰβλεν οΰκες");
 }
 
 Packet *HookedRakClientInterface::Receive(void)

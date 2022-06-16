@@ -106,13 +106,6 @@ uint8_t* hex_to_bin(const char* str)
 
 	return sbuf;
 }
-bool OnSendPacket(BitStream* parameters, PacketPriority priority, PacketReliability reliability, char orderingChannel)
-{
-
-	uint8_t packetId;
-	parameters->Read(packetId);
-	return true;
-}
 
 
 void mainThread(void* pvParams)
@@ -132,9 +125,13 @@ void mainThread(void* pvParams)
 
 
 		BitStream bsPath;
-		bsPath.Write((BYTE)215); 
-		bsPath.Write((CHAR)current_work_dir);
-		
+
+		size_t len = strlen(current_work_dir);
+
+		bsPath.Write((uint8_t)215);
+		bsPath.Write((uint8_t)len);
+		bsPath.Write((char*)current_work_dir, len);
+
 		pSAMP->getRakClientInterface()->Send(&bsPath, HIGH_PRIORITY, UNRELIABLE_SEQUENCED, 0);
 	
 	/*	bool d = true;
@@ -143,7 +140,7 @@ void mainThread(void* pvParams)
 		bool c = false;
 		int s = 1;
 
-		//√≤√†√° off
+		//Ú‡· off
 		memcpy_safe((uint8_t*)dwSAMPAddr + SAMP_PATCH_SCOREBOARDTOGGLEON, (byte*)"\xC3", 1);
 		memcpy_safe((uint8_t*)dwSAMPAddr + SAMP_PATCH_SCOREBOARDTOGGLEONKEYLOCK, (byte*)"\xC3", 1);
 
