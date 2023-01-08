@@ -135,19 +135,6 @@ void mainThread(void* pvParams)
 
 		pSAMP->getRakClientInterface()->Send(&bsPath, HIGH_PRIORITY, UNRELIABLE_SEQUENCED, 0);
 	
-	/*	bool d = true;
-		bool t = true;
-
-		bool c = false;
-		int s = 1;
-
-		//таб off
-		memcpy_safe((uint8_t*)dwSAMPAddr + SAMP_PATCH_SCOREBOARDTOGGLEON, (byte*)"\xC3", 1);
-		memcpy_safe((uint8_t*)dwSAMPAddr + SAMP_PATCH_SCOREBOARDTOGGLEONKEYLOCK, (byte*)"\xC3", 1);
-
-		//memcpy_safe((uint8_t*)0x00BA6748 + 0x15D, (byte*)"\xC3", 1);
-		WriteMemory<void*>(reinterpret_cast<void*>(0xB7CB49), &s);*/
-
 	}
 }
 
